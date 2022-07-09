@@ -1,0 +1,237 @@
+    1  git config --global core.editor "code --wait"
+    2  git config --global -e
+    3  git config --global core.autocrlf true
+    4  clean
+    5  ls
+    6  pwd
+    7  mkdir workspace
+    8  cd workspace
+    9  ls
+   10  mkdir miwed
+   11  ls
+   12  cd miwed
+   13  git init
+   14  ls
+   15  ls -a
+   16  clear
+   17  ls -a
+   18  cd .git
+   19  ls -a
+   20  cd ..
+   21  ls
+   22  clear
+   23  code .
+   24  git status
+   25  git add archevi.txt
+   26  git status
+   27  clear
+   28  git status
+   29  git add archivo2.txt
+   30  git status
+   31  git status
+   32  git add archivo2.txt
+   33  git status
+   34  git commit -m "commit inicial"
+   35  git status
+   36  ls
+   37  rm archivo2.txt
+   38  git status
+   39  git add archivo2.txt
+   40  git status
+   41  git commit -m "eliminando archivo 2"
+   42  git status
+   43  ls
+   44  git rm archevi.txt
+   45  git status
+   46  git restore -- staged archevi.txt
+   47  git restore --staged archevi.txt
+   48  git status
+   49  ls
+   50  git restore archevi.txt
+   51  git status
+   52  ls
+   53  git status
+   54  ls
+   55  mv archevi.txt archivo.txt
+   56  ls
+   57  git status
+   58  git add archevi.txt archivo.txt
+   59  git status
+   60  git commit -m "renombrando archivo"
+   61  git mv archivo.txt archivo1.txt
+   62  git status
+   63  git commit -m "sugundo cambio del niombre delarchivo"
+   64  clear
+   65  git status
+   66  git status
+   67  clear
+   68  git status
+   69  git status
+   70  git rm .evc archivo2.txt
+   71  git status
+   72  rm .env archivo2.txt
+   73  git status
+   74  git status
+   75  git status
+   76  git status
+   77  git add .gitignore
+   78  git commit -m "agregando gitignore"
+   79  git log --oneline
+   80  clear
+   81  git status
+   82  git add archivo1.txt
+   83  git status
+   84  clear
+   85  git status
+   86  git restore --stage archivo1.txt
+   87  git status
+   88  git restore archivo1.txt
+   89  clear
+   90  git status
+   91  git branch
+   92  git checkot -b ramab
+   93  git branch
+   94  git checkout -b ramab
+   95  git branch
+   96   git status
+   97  git status
+   98  git status
+   99  git add archivo1.txt
+  100  git commit -m "actualizando archivo 1"
+  101  git log --oneline
+  102  clear
+  103  cat archivo1.txt
+  104  git checkout master
+  105  cat archivo1.txt
+  106  git merge ramab
+  107  car archivo1.txt
+  108  cat archivo1.txt
+  109  git remote add origin https://github.com/neoca/miwed.git
+  110  git push -u origin master
+  111  git status
+  112  ls
+  113  pwd
+  114  mkdir miwed
+  115  cd
+  116  cd miwed
+  117  ls
+  118  got rm pagina-completa-html-css
+  119  pwd
+  120  cd pagina-completa-html-css
+  121  pwd
+  122  ls
+  123  git init
+  124  ls -a
+  125  ls
+  126  git status
+  127  git add index.css index.html media/
+  128  git status
+  129  git commit -m "pagina informativa"
+  130  git status
+  131  git remote add origin https://github.com/neoca/miwed.git
+  132  git push -u origin main
+  133  git push -u origin master
+  134  ls
+  135  cd 6-proyectos-python
+  136  git init
+  137  ls -a
+  138  ls -a
+  139  git status
+  140  git add adivinaelnumero.py
+  141  git status 
+  142  git status
+  143  git pull exer-aula07 master
+  144  git pull neoca/exer-aula07 master
+  145  echo "#curso_git" >> README.md
+  146  git init
+  147  git add README.md
+  148  git status
+  149  clear
+  150  ls
+  151  ls
+  152  git checkout
+  153  git checkout HEAD~~
+  154  git log
+  155  cd workspace
+  156  mkdir exer-aula07
+  157  pws
+  158  cat workspace
+  159  ls
+  160  cd exer-aula07
+  161  clear
+  162  ls
+  163  git remote add origin https://github.com/KaueMaia/AulaGIT.git
+  164  git remote
+  165  git push origin master
+  166  git remote add origin https://github.com/neoca/exer-aula07.git
+  167  git remote
+  168  clear
+  169  ls
+  170  cd workpace
+  171  cd..
+  172  pws
+  173  cd workspace
+  174  pws
+  175  cat workspace
+  176  clear
+  177  pws
+  178  git branch
+  179  git log
+  180  git status
+  181  clear
+  182  git checkout MINGW64
+  183  cd MINGW64
+  184  git commit
+  185  ls
+  186  git config user.name
+  187  ls
+  188  cd workspace/
+  189  mkdir curso_git
+  190  cd curso_git
+  191  git config user.name
+  192  git init
+  193  git status
+  194  echo '#aprendendogit' > readme.md
+  195  git status
+  196  git add .
+  197  git status
+  198  git commit -m 'commit inicial'
+  199  git status
+  200  echo '##aula1' >> readme.md
+  201  git status
+  202  echo 'neomar1 > participa.txt
+  203  echo 'neomar' > participa.txt
+  204  clear
+  205  git log
+  206  git log
+  207  histoy -c
+  208  history -C
+  209  histoy
+  210  git log
+  211  git log --pretty=oneline
+  212  log --stat
+  213  git log --stat
+  214  git log -p
+  215  clear
+  216  mkdir .vscode
+  217  mv conf.txt .vscode
+  218  mv conf.txt .vscode/
+  219  ls
+  220  touch conf.txt
+  221  ls
+  222  mv conf.txt .vscode/
+  223  ls
+  224  ls -a
+  225  echo '.vscode/' > .gitignore
+  226  git status
+  227  touch pessoal.conf
+  228  git status
+  229  echo 'pessoal.conf' >> .gitignore
+  230  git status
+  231  git add .gitignore
+  232  git commit -m 'adicionando arquivo .gitignore'
+  233  git status
+  234  git add yes
+  235  git status
+  236  git commit -m 'pasta yes'
+  237  history > aula-04.txt
